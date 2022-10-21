@@ -16,7 +16,7 @@
 			$_SESSION['counter'] = $_SESSION['counter'] +1;
 
 
-			if($_SESSION['counter'] == 5 )
+			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])-1) )
 			{
 				unset($_POST['submission']);
 				header("location:gameover.php");
@@ -32,7 +32,7 @@
 		} 
 		else {
 			$_SESSION['counter'] = $_SESSION['counter'] +1;
-			if($_SESSION['counter'] >= sizeof($_SESSION['questions']) )
+			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])-1) )
 			{
 				unset($_POST['submission']);
 				header("location:gameover.php");
@@ -57,6 +57,7 @@
 	<title></title>
 </head>
 <body > -->
+	<h3> size of session[questions]: <?=sizeof($_SESSION['questions'])?> </h3>
 	<div class="trivia-question">
 		<h2><?= $_SESSION['questions'][$_SESSION['counter']]?></h2>
 	<form action="" method="post" name="question_form">
