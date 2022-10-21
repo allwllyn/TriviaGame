@@ -1,0 +1,28 @@
+<?php require 'common.php' ?>
+<?php includeHeader();
+
+//this file initializes the chosen question set in the php session
+
+$questionsFile = file_get_contents("questions.txt");
+$optionsFile = file_get_contents("options.txt");
+$answersFile = file_get_contents("answers.txt");
+$questions = explode("\n", $questionsFile);
+$options = explode("\n", $optionsFile);
+$answers = explode("\n", $answersFile);
+//$userName = $_SESSION['name'];
+$_SESSION['options'] = array();
+$_SESSION['questions'] = $questions;
+
+for($i=0;$i<sizeof($options); $i++){
+
+	$_SESSION['options'][$i] = explode(",",$options[$i]);
+}
+
+
+$_SESSION['answers']=$answers;
+
+$_SESSION['score'] = 0;
+$_SESSION['counter'] = 0;
+
+header("location:questions.php");
+?>

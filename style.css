@@ -1,0 +1,96 @@
+
+body{
+  align-content: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: slategray;
+
+
+}
+
+h1{
+  grid-column-start: 3;
+  grid-row: 1;
+  justify-self: end;
+  align-self: end;
+  color: black;
+  font-size: 70px;
+  margin: 0 50px 0 0px;
+}
+h2{
+  color: blue;
+}
+
+.menu{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+}
+.menu-item {
+  width: 25vw;
+  height: 50px;
+  margin: 10px 0 0 0;
+  font-size: 50px;
+  text-align: left;
+  text-decoration: none;
+  color: lightgrey;
+  position: relative;
+}
+.menu-item:hover{
+  text-shadow: 2px 4px 0px rgba(20, 20, 200, 0.5);
+}
+.menu-item:hover:before{
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 5px;
+  height: 40px;
+  width: 50px;
+  background-color: red;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 10% 50%);
+  
+  animation-name: finger;
+  animation-duration: 0.35s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.trivia-question {
+  color: blue;
+  border-radius: 10;
+  background-color: whitesmoke;
+  border: 5px;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  align-content: center;
+  text-align: center;
+
+}
+
+.leader-board {
+  text-align: center;
+  background-color: slateblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+
+.logout {
+  font-family: sans-serif;
+  background-color: orangered;
+  color: lightgrey;
+  background-clip: border-box;
+}
+
+.image{
+  grid-column: 2 / span 2;
+  grid-row-start: 2;
+  align-self: center;
+  background-image: linear-gradient(to right, rgba(255, 153, 0, 0), rgba(0, 0, 255, 1));
+  justify-self: stretch;
+  align-self: stretch;
+}
+}
