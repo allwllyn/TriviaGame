@@ -16,7 +16,7 @@
 			$_SESSION['counter'] = $_SESSION['counter'] +1;
 
 
-			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])-1) )
+			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])) )
 			{
 				unset($_POST['submission']);
 				header("location:gameover.php");
@@ -32,7 +32,7 @@
 		} 
 		else {
 			$_SESSION['counter'] = $_SESSION['counter'] +1;
-			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])-1) )
+			if($_SESSION['counter'] >= (sizeof($_SESSION['questions'])) )
 			{
 				unset($_POST['submission']);
 				header("location:gameover.php");
