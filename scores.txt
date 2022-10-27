@@ -1,13 +1,36 @@
-2305, Player 1
-5890, Player 2
-23, user3
-45, user6
-4432, user9
-333, user33
-234, user24
-678, user45
-999, user99
-23948, user41
-498, user1
-2341, user8
-221, user5
+Andrew,30
+Andrew,30
+Andrew,15
+Andrew,15
+Andrew,10
+Andrew,10
+Andrew,10
+Andrew,10
+Andrew,35
+Andrew,0
+Andrew,35
+Andrew,15
+Andrew,35
+Andrew,40
+Andrew,15
+Andrew,20
+Andrew,25
+Andrew,25
+Andrew,25
+Andrew,25
+Andrew,25
+Andrew,40
+Andrew,40
+Andrew,40
+Andrew,35
+Andrew,45
+Andrew,40
+Andrew,50
+Andrew,10
+Andrew,15
+Andrew,20
+Andrew,25
+Andrew,40
+Andrew,45
+Andrew,50
+Andrew,40

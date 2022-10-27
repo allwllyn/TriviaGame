@@ -1,7 +1,7 @@
 
 <?php session_start();
 
-if(!isset($_SESSION['UserData']['Username'])){
+if(!isset($_SESSION['name'])){
   header("location:login.php");
   exit;
 }
@@ -13,9 +13,11 @@ if(!isset($_SESSION['UserData']['Username'])){
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="image"></div>
-<h1>Panther Trivia Adventure</h1>
+
+<h2>Panther Trivia</h2>
+<h2>About</h2>
 <div class="about">
+
  <p> This is a trivia game made entirely with PHP, HTML, and CSS. </p>
  <p> First you must create a login, then select the difficulty setting.</p>
  <p> After this, simply answer the questions and try to get the high score!</p>

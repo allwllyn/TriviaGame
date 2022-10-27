@@ -1,18 +1,14 @@
 
+<!-- Shared footer file -->
 
 
 
 
+
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<div class="header">
-<a href="logout.php">Logout</a>
+<div class="button-wrap">
+<a class="button" href="logout.php">Logout</a>
 </div>
-
 </body>
 </html>

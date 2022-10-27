@@ -4,7 +4,12 @@
 <!-- Andrew Llewellyn -->
 <!-- Page that allows allows a returning user to check their matches -->
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/loginStyle.css">
+</head>
 <body>
+	<div class="center">
+		<h1>Panther Trivia</h1>
 <form action="login.php" method="post">
 <fieldset>
 <legend>Returning User:</legend>
@@ -17,14 +22,18 @@
 
 <li>
 <b>Password:</b>
-<input type="text" name="password" size="16" />
+<input type="Password" name="password" size="16" />
 </li>
 
 </ul>
                         
-<input name= "Submit" type="submit" value="Submit">
+<input style="margin-left: 45%;" name="Submit" type="submit" value="Submit">
 </fieldset>
 </form>
-<a href="signup.php"> Sign Up </a>
+<div class="button-wrap">
+<a class="button" href="signup.php"> Sign Up </a>
+</div>
+</div>
+
 </body>
 </html>

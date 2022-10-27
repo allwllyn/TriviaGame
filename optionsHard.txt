@@ -1,0 +1,10 @@
+Rome,Catania,Pompeii,Naples
+186,206,286,306
+Mother Teresa,Marie Curie,Jane Adams,Alva Myrdal
+National Aeronautics and Space Administration, Nautical and Space Association,National Aeronautics and Space Association, New Aeronautics and Special Administration
+Franklin D Roosvelt,Ronald Reagan,Bill Clinton,George W Bush
+Uffizi Museum,Le Louvre,British Museum,Metropolitan Museum of Art
+Kamala Harris,Joe Biden,Dick Cheney,Al Gore
+Thomas Edison,Benjamin Franklin,Alexander Graham Bell,Nikola Tesla
+1,3,4,6
+Wind Speed,Temperature,Earthquake Intensity,Tornado Strength

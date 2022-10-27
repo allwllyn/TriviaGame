@@ -9,7 +9,7 @@
 		/* Check and assign submitted answer to new variable */
 		$answer = isset($_POST['answer']) ? $_POST['answer'] : '';
 		
-		/* Check Username and Password existence in defined array */		
+		/* Check answer */		
 		if ($answer == $_SESSION['answers'][$_SESSION['counter']]){
 			/* Success: Set session variables and redirect to Protected page  */
 			$_SESSION['score'] = $_SESSION['score'] + 5;
@@ -48,23 +48,15 @@
 	}
 ?>
 
-<!-- <!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
-</head>
-<body > -->
-	<h3> size of session[questions]: <?=sizeof($_SESSION['questions'])?> </h3>
+
+	<div class="spinner"><img class="pantherhead" src="css/panther.png" alt="Panther"></div>
 	<div class="trivia-question">
 		<h2><?= $_SESSION['questions'][$_SESSION['counter']]?></h2>
 	<form action="" method="post" name="question_form">
 		<input type="radio" name="answer" value="<?= $_SESSION['options'][$_SESSION['counter']][0]?>" />
 		<label for="optionOne"><?= $_SESSION['options'][$_SESSION['counter']][0]?></label>
 		<br/>
-		<input type="radio" name="answer" value=<?= $_SESSION['options'][$_SESSION['counter']][1]?> />
+		<input type="radio" name="answer" value="<?= $_SESSION['options'][$_SESSION['counter']][1]?>" />
 		<label for="optionTwo"><?= $_SESSION['options'][$_SESSION['counter']][1]?></label>
 		<br/>
 		<input type="radio" name="answer" value="<?= $_SESSION['options'][$_SESSION['counter']][2]?>" />
@@ -72,6 +64,7 @@
 		<br/>
 		<input type="radio" name="answer" value=<?= $_SESSION['options'][$_SESSION['counter']][3]?> />
 		<label for="optionFour"><?= $_SESSION['options'][$_SESSION['counter']][3]?></label>
+		<br/>
 		<br/>
 		<input name="submission" type="submit" value="Submit">
 	</form>

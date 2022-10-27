@@ -3,9 +3,9 @@
 
 //this file initializes the chosen question set in the php session
 
-$questionsFile = file_get_contents("questionsEasy.txt");
-$optionsFile = file_get_contents("optionsEasy.txt");
-$answersFile = file_get_contents("answersEasy.txt");
+$questionsFile = file_get_contents("questionsHard.txt");
+$optionsFile = file_get_contents("optionsHard.txt");
+$answersFile = file_get_contents("answersHard.txt");
 $questions = explode("\n", $questionsFile);
 $options = explode("\n", $optionsFile);
 $answers = explode("\n", $answersFile);

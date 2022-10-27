@@ -11,17 +11,17 @@ if(!isset($_SESSION['name'])){
 <!DOCTYPE HTML>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="menuStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/menuStyle.css">
 </head>
 <body>
 <div class="image"></div>
-<h1>Panther Trivia Adventure</h1>
+<h1>Panther Trivia</h1>
 <div class="menu">
   <a class="menu-item" href="startOptions.php"> Start Game </a> 
   <br/>
   <a class="menu-item" href="leaderBoard.php"> Top Scores </a>
   <br/>
   <a class="menu-item" href="about.php"> About </a>
+  <br/>
+  <a class="menu-item" href="logout.php"> Logout </a>
 </div>
-
-<?php includeFooter(); ?>

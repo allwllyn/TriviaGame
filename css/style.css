@@ -1,0 +1,126 @@
+
+body,html{
+  
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: blue;
+  
+}
+a{
+  text-decoration: none;
+}
+
+.trivia-question {
+  color: whitesmoke;
+  border-radius: 10;
+  background-color: midnightblue;
+  box-shadow: 4px 4px whitesmoke;
+  border: 5px;
+  border-radius: 15px;
+  position: relative;
+  padding: 15px;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-bottom: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.about {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+  border-width: 50px;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 10vh;
+  text-align: center;
+
+}
+
+.leader-board {
+  text-align: center;
+  background-color: slateblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+
+.button-wrap{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  box-shadow: 2px 2px whitesmoke;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 40vh;
+  height: auto;
+  padding: 1vh;
+  background-color: midnightblue;
+  color: lightgrey;
+}
+.title{
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  color: whitesmoke;
+  text-shadow: 2px 3px orangered;
+  sh
+}
+.score{
+  font-size: 18px;
+  position: relative;
+  color: orangered;
+}
+.gsu-image {
+  background-image: url('one.jpg');
+  filter: saturate(1%) blur(2px) opacity(20%);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin: 0vh;
+  overflow: hidden;
+
+}
+.center{
+  text-align: center;
+}
+.vertical-center{
+  text-align: center;
+  margin-top: 30%;
+  color: whitesmoke;
+}
+.left{
+  margin-left: 5vh;
+}
+.pantherhead{
+  width: 200px;
+  height: auto;
+}
+.spinner{
+  animation-name: spin;
+  margin-left: 42%;
+  position: absolute;
+  top: 10px;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

@@ -1,0 +1,8 @@
+1996,1999,1969,1990
+2000,2021,2019,2022
+25 Park Place,55 Park Place,1 Park Place,999 Park Place
+Savannah,Doraville,Atlanta,Valdosta
+Tiger,Lion,Jaguar,Panther
+Blue and White,Red and Gold,Orange and Green,Blue and Orange
+Armin Mikler,Chinua Umoja,William Johnson,Shiraj Pokharel
+Georgia State University,University of Georgia - Atlanta,Georgia Institute of Technology Evening School of Commerce,Atlanta Evening School

@@ -1,20 +1,16 @@
 
-<?php session_start();
-require 'common.php' ?>
+<?php require 'common.php';
+includeHeader();
+file_put_contents("scores.txt", "\n".$_SESSION['name'].",".$_SESSION['score'], FILE_APPEND);?>
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="image"></div>
-<h1>Game Over</h1>
-<div class="menu">
-  <a class="menu-item" href="startEasy.php">Play Again?</a>
-  <br/>
-  <a class="menu-item" href="index.php">Home</a>  
-  <br/>
+<div class="center">
+  <div class="title">
+  <h1>Game Over</h1>
+  </div>
 </div>
+<div class="button-wrap">
+  <a class="button" href="index.php">Home</a>  
+</div>
+
 
 <?php includeFooter(); ?>

@@ -1,0 +1,10 @@
+8,12,6,4
+Harriet Quimby,Bessie Coleman,Amelia Earhart,Raymonde de Laroche
+China,Germany,Poland,Greece
+Willie Mays,Hank Aaron,Babe Ruth,Barry Bonds
+Mars,Jupiter,Earth,Venus
+Peace,Literature,Chemistry,Physics
+7,17,37,27
+5849,6849,7849,8849
+Silver,Gold,Iron,Carbon
+58,78,98,118

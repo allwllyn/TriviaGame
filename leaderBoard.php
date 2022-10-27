@@ -1,6 +1,6 @@
 <?php require 'common.php'; ?>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <?php
 
@@ -16,8 +16,8 @@ function createScoresList(){
 
 	for ($i=0; $i<sizeof($scores); $i++) {
 		$scoreData = explode(",", $scores[$i]);
-		$score = intval($scoreData[0]);
-		$name = $scoreData[1];//why is this undefined -- make sure no blank lines it .txt file
+		$score = intval($scoreData[1]);
+		$name = $scoreData[0];//why is this undefined -- make sure no blank lines it .txt file
 		$scores[$i] = array('score' => $score, 'name' => $name);
 	}
 

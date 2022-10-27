@@ -15,13 +15,16 @@ foreach ($_POST as $key => $value) {
 
 ?>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 <body>
-<div>
-<h1>Thank you!</h1>
-<p>
-Welcome to Panther Trivia, <?= $userName ?>!<br /><br />
-Now <a href="returnUser.php">log in to play!>
-</p>
+<div class="vertical-center">
+	<h1>Thank you!</h1>
+	<p>
+	Welcome to Panther Trivia, <?= $userName ?>!<br /><br />
+	Now <a style= "color: whitesmoke; font-weight: bold; border-width: 2px; border-style: solid; border-color: red;" href="returnUser.php">log in to play!</a>
+	</p>
 </div>
 </body>
 </html>
