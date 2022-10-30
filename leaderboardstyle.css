@@ -1,0 +1,33 @@
+
+body,html{
+  
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: blue;
+  
+
+  /* The image used */
+  background-image: url("GSU.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.leader-board {
+  text-align: center;
+  background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+.title{
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+  text-shadow: 2px 3px orangered;
+  text-align: center;
+}
