@@ -1,0 +1,41 @@
+body {
+	background-image: url("Back-Ground.jpg");
+	
+}
+h2{
+ text-align:center;
+ color : brown;
+}
+p{
+ text-align:center;
+ line-height: 5;
+ color: brown;
+ stroke: #4D163D;
+  animation-delay: -1;
+}
+ 
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img {
+    animation: blink 3s;
+    animation-iteration-count: infinite;
+    border: 5px solid ;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+     
+}
+
