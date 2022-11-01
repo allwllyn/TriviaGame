@@ -1,5 +1,9 @@
 # TriviaGame
 CSC 4370 - Project 1
 
+Andrew Llewellyn
+Natnael Dejene
+Nasor Clough
 
-If anyone is interested or good with CSS in particular, if you could add styling to the questions.php through style.css, and the leaderboard.php through style.css
+
+This github includes all code that was used during development, including code that is not used in the final.
