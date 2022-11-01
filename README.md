@@ -1,8 +1,8 @@
 # TriviaGame
 CSC 4370 - Project 1
 
-Andrew Llewellyn
-Natnael Dejene
+Andrew Llewellyn,
+Natnael Dejene,
 Nasor Clough
 
 
