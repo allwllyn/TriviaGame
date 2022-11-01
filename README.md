@@ -1,12 +1,12 @@
 # TriviaGame\
-CSC 4370 - Project 1\
+CSC 4370 - Project 1
 
-Name: Panther Trivia\
+Name: Panther Trivia
 
 Team Members:\
 Andrew Llewellyn\
 Natnael Dejene\
-Nasor Clough\
+Nasor Clough
 
 
 This github includes all code that was used during development, including code that is not used in the final.\
