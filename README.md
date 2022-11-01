@@ -1,4 +1,4 @@
-# TriviaGame\
+# TriviaGame
 CSC 4370 - Project 1
 
 Name: Panther Trivia
