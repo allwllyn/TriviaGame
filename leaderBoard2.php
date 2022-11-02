@@ -66,6 +66,10 @@ function printMatches($scoreData){
 }
 
 ?>
+
 </body>
 <?php displayLeaderBoard(); ?>
+<div class="button-wrap">
+<a class="button" href="index.php">Home</a>  
+</div>
 

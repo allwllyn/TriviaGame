@@ -2,20 +2,21 @@
 body,html{
   
   font-family: sans-serif;
-  text-transform: uppercase;
   background-color: blue;
-  
-
-  /* The image used */
-  background-image: url("GSU.png");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
+  text-align: center;
+}
+.gsu-image {
+  background-image: url('GSU.png');
+  filter: saturate(1%) blur(2px) opacity(20%);
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
+  margin: 0vh;
+  overflow: hidden;
+
 }
 .leader-board {
   text-align: center;
@@ -30,4 +31,42 @@ body,html{
   color: whitesmoke;
   text-shadow: 2px 3px orangered;
   text-align: center;
+}
+.button-wrap{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  box-shadow: 2px 2px whitesmoke;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 40vh;
+  height: auto;
+  padding: 1vh;
+  background-color: midnightblue;
+  color: lightgrey;
+  }
+
+ul{
+  list-style: none;
+  position: relative;
+  outline: black;
+  outline-width: 5px;
+  text-align: center;
+}
+
+li{
+ padding: 5px;
+ background-color: navy;
+ margin-left: 20%;
+ margin-right: 25%;
+ border: solid 2px whitesmoke;
+ box-shadow: 2px 2px gray;
+ border-top-right-radius: 10px;
+ color: whitesmoke;
 }
