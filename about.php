@@ -1,4 +1,3 @@
-
 <?php session_start();
 
 if(!isset($_SESSION['name'])){
@@ -10,17 +9,21 @@ if(!isset($_SESSION['name'])){
 <!DOCTYPE HTML>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+ <link rel="stylesheet" type ="text/css" href="css/about.css"/></head>
 <body>
 
-<h2>Panther Trivia</h2>
 <h2>About</h2>
-<div class="about">
 
- <p> This is a trivia game made entirely with PHP, HTML, and CSS. </p>
- <p> First you must create a login, then select the difficulty setting.</p>
- <p> After this, simply answer the questions and try to get the high score!</p>
-</div>
+ <h1> Project Name: Panther Trivia </h1>
+ <h2> Description: This is a question and answer trivia game with three levels of difficulty.</h2>
+ <h2> Team Members: </h2>
+ <h3> Andrew Llewellyn: </h3>
+  <p> PHP Session variables (score, name, questions, answers), question initializing, question display, question styling, menu</p>
+ <h3> Natnael Dejene: </h3>
+  <p>Login, question content, answer content, question display, About page styling, logout</p>
+ <h3> Nasor Clough: </h3>
+  <p> UML diagram, leaderboard styling, Powerpoint Slides</p>
+<img src="css/about.jpg" alt="Trivia">
+
 </body>
 </html>

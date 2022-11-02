@@ -1,23 +1,22 @@
-<html>
-<div class="title">
-		<h1>Panther Trivia Leaderboards</h1>
-		</div>
-<img src="Panther.gif" alt="Computer man" style="width:100px;height:100px;">		
-<body>
-
-	
 <?php require 'common.php'; ?>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/leaderboardstyle.css">
+</head>
+<div class="gsu-image"></div>
 
+<img src="Panther.gif" alt="Computer man" style="width:100px;height:100px;">		
+<body>
+<div class="title">
+	
+		<h1>Panther Trivia Leaderboard</h1>
+</div>
 <?php
 
-
+//get scores from txt file
 $txtFile = file_get_contents("scores.txt");
-
 $scores = explode("\n", $txtFile);
-
-
 
 function createScoresList(){
 	global $scores;
@@ -39,17 +38,24 @@ function createScoresList(){
 }
 
 function displayLeaderBoard(){
+	global $scores;
 	$topScores = createScoresList();
-	for ($i=0; $i < 10; $i++) {
-		printMatches($topScores[$i]);
+	if(sizeof($scores) < 10){
+		for ($i=0; $i < sizeof($scores); $i++) {
+			printMatches($topScores[$i]);
+		}
 	}
-
+	else {
+		for ($i=0; $i < 10; $i++) {
+			printMatches($topScores[$i]);
+		}
+	}
 }
 
 
 function printMatches($scoreData){
 	
-	?> <div class='leader-board'>
+	?> <!-- <div class='leader-board'> -->
 		
 		<ul>
 			<li><b> <?= $scoreData['name'] ?>  - </b> <?= $scoreData['score'] ?> </li>                      
@@ -60,6 +66,6 @@ function printMatches($scoreData){
 }
 
 ?>
-
+</body>
 <?php displayLeaderBoard(); ?>
 

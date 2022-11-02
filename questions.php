@@ -12,7 +12,7 @@
 		/* Check answer */		
 		if ($answer == $_SESSION['answers'][$_SESSION['counter']]){
 			/* Success: Set session variables and redirect to Protected page  */
-			$_SESSION['score'] = $_SESSION['score'] + 5;
+			$_SESSION['score'] = $_SESSION['score'] + (500 * $_SESSION['mode']);
 			$_SESSION['counter'] = $_SESSION['counter'] +1;
 
 
@@ -69,4 +69,5 @@
 		<input name="submission" type="submit" value="Submit">
 	</form>
 	</div>
+	
 	<?php includeFooter();?>

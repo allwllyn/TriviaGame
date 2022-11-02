@@ -19,7 +19,7 @@ if(!isset($_SESSION['name'])){
 <div class="menu">
   <a class="menu-item" href="startOptions.php"> Start Game </a> 
   <br/>
-  <a class="menu-item" href="leaderBoard.php"> Top Scores </a>
+  <a class="menu-item" href="leaderBoard2.php"> Top Scores </a>
   <br/>
   <a class="menu-item" href="about.php"> About </a>
   <br/>

@@ -11,6 +11,8 @@ file_put_contents("scores.txt", "\n".$_SESSION['name'].",".$_SESSION['score'], F
 <div class="button-wrap">
   <a class="button" href="index.php">Home</a>  
 </div>
+<br/>
+<div class="button-wrap">
+  <a class="button" href="logout.php">Logout</a>  
+</div>
 
-
-<?php includeFooter(); ?>

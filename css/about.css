@@ -2,13 +2,22 @@ body {
 	background-image: url("Back-Ground.jpg");
 	
 }
+h1{
+text-align:center;
+ color : brown;
+}
 h2{
  text-align:center;
  color : brown;
 }
+h3{
+text-align:center;
+ color : brown;
+}
+
 p{
  text-align:center;
- line-height: 5;
+ line-height: 2;
  color: brown;
  stroke: #4D163D;
   animation-delay: -1;

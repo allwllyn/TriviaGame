@@ -1,12 +1,13 @@
 
 <!-- Andrew Llewellyn -->
+<?php require 'common.php' ?>
 <?php 
 
 session_start();
 
 /* Check Login form submitted */	
 	if(isset($_POST['Submit'])){
-	?> <p> if post passed </p> <?php 
+	?> <p> Error Invalid Login </p> <?php 
 		/* Define username and associated password array */
 		/* You can change username and associated password array to your pref*/
 		$loginsFile = file_get_contents("logins.txt");
@@ -31,6 +32,7 @@ session_start();
 		} else {
 			/*Unsuccessful attempt: Set error message */
 			$msg="<span style='color:red'>Invalid Login Details</span>";
+			header("location:invalid.php");
 		}
 	}
 

@@ -1,0 +1,53 @@
+
+body,html{
+  
+  font-family: sans-serif;
+  background-color: blue;
+  text-align: center;
+}
+.gsu-image {
+  background-image: url('GSU.png');
+  filter: saturate(1%) blur(2px) opacity(20%);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin: 0vh;
+  overflow: hidden;
+
+}
+.leader-board {
+  text-align: center;
+  background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+.title{
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+  text-shadow: 2px 3px orangered;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  position: relative;
+  outline: black;
+  outline-width: 5px;
+  text-align: center;
+}
+
+li{
+ padding: 5px;
+ background-color: navy;
+ margin-left: 20%;
+ margin-right: 25%;
+ border: solid 2px whitesmoke;
+ box-shadow: 2px 2px gray;
+ border-top-right-radius: 10px;
+ color: whitesmoke;
+}

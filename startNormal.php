@@ -12,6 +12,7 @@ $answers = explode("\n", $answersFile);
 //$userName = $_SESSION['name'];
 $_SESSION['options'] = array();
 $_SESSION['questions'] = $questions;
+$_SESSION['mode'] = 2;
 
 for($i=0;$i<sizeof($options); $i++){
 
