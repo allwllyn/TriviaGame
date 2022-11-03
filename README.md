@@ -1,7 +1,7 @@
 # TriviaGame
 CSC 4370 - Project 1\
-youtube presentation: https://discord.com/channels/1028033323739664465/1028033323739664468/1037525159462051921\
-Name: Panther Trivia\
+\youtube presentation: https://discord.com/channels/1028033323739664465/1028033323739664468/1037525159462051921
+\Name: Panther Trivia
 
 Team Members:\
 Andrew Llewellyn\
